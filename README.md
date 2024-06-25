@@ -1,8 +1,15 @@
-# React + Vite
+# SnapSegregator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SnapSegregator** is a React app that leverages AI to help you effortlessly sort through your photos. Upload a folder of images, and SnapSegregator will automatically identify and segregate the photos that include your face. Simplify your photo organization with our cutting-edge facial recognition technology!
 
-Currently, two official plugins are available:
+## Features
+- **Easy Upload**: Upload a zip file of your photos effortlessly.
+- **AI-Powered Segregation**: Uses advanced AI models to detect and match your face in the photos.
+- **Organized Results**: Automatically sorts and saves matched and unmatched photos into separate folders.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How It Works
+1. Upload a reference image and a zip file containing your photos.
+2. SnapSegregator will analyze and compare each photo with the reference image.
+3. Your photos will be sorted into "Matched" and "Unmatched" folders for easy access.
+
+Experience seamless photo organization with SnapSegregator!
