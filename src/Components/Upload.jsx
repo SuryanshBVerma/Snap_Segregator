@@ -50,9 +50,14 @@ const Upload = () => {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
+
+                timeout: 60000 // 60 seconds timeout
             });
 
-            setResult(response.data);
+
+            console.log(response.data);
+
+            // setResult(response.data);
         } catch (err) {
             setError(err.message);
         } finally {
