@@ -46,12 +46,12 @@ const Upload = () => {
         formData.append('reference_image', referenceFile);
 
         try {
-            const response = await axios.post('http://127.0.0.1:5000/segregate', formData, {
+            const response = await axios.post('https://4ca6-34-124-184-96.ngrok-free.app/segregate', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
 
-                timeout: 60000 // 60 seconds timeout
+                timeout: 1200000 // 60 seconds timeout
             });
 
 

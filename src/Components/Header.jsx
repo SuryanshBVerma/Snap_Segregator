@@ -38,7 +38,7 @@ const Header = () => {
 
                     <div className="flex">
                         <div className="flex items-center order-2">
-                            <a href="#">
+                            <a href="https://github.com/SuryanshBVerma/Snap_Segregator">
                                 <img src={github} alt="github" className="w-9 h-9 cursor-pointer dark:text-white" />
                             </a>
                         </div>

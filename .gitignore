@@ -22,6 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Backend/matched
+Backend/unmatched
+Backend/uploads
 
-#Extras
-New folder
