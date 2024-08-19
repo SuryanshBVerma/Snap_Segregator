@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 from werkzeug.utils import secure_filename
-# Uncomment these imports when you want to use the full functionality
+
 import zipfile
 import shutil
 import face_recognition
@@ -57,6 +57,9 @@ def save_images(image_paths, dest_folder):
     for image_path in image_paths:
         shutil.copy(image_path, dest_folder)
 
+@app.route('/segregate', methods=['GET'])
+def hello():
+    return jsonify({'error': 'hello'}), 200
 
 @app.route('/segregate', methods=['POST'])
 def segregate_images():
